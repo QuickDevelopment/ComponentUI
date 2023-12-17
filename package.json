@@ -1,0 +1,25 @@
+{
+  "name": "quickfe",
+  "private": false,
+  "version": "0.0.1",
+  "description": "The Quick frontend provides the customisable frontend for the Quick backend.",
+  "main": "./src/main.js",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/QuickDevelopment/Quick/issues",
+    "email": "keaganmulder1@gmail.com"
+  },
+  "author": "Keagan Mulder <keaganmulder1@gmail.com>",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.3.11"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.2",
+    "vite": "^5.0.8"
+  }
+}
