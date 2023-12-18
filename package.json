@@ -3,8 +3,7 @@
   "private": false,
   "version": "0.0.1",
   "description": "The Quick frontend provides the customisable frontend for the Quick backend.",
-  "main": "./src/main.js",
-  "type": "module",
+  "main": "./src/main.ts",
   "bugs": {
     "url": "https://github.com/QuickDevelopment/Quick/issues",
     "email": "keaganmulder1@gmail.com"
@@ -16,10 +15,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@headlessui/vue": "^1.7.16",
+    "@heroicons/vue": "^2.0.18",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "sass": "^1.69.5",
+    "typescript": "^5.3.3",
     "vue": "^3.3.11"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.5.2",
+    "tailwindcss": "^3.3.6",
     "vite": "^5.0.8"
   }
 }
