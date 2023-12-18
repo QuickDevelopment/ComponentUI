@@ -4,6 +4,7 @@
   "version": "0.0.1",
   "description": "The Quick frontend provides the customisable frontend for the Quick backend.",
   "main": "./src/main.ts",
+  "files": ["dist"],
   "bugs": {
     "url": "https://github.com/QuickDevelopment/Quick/issues",
     "email": "keaganmulder1@gmail.com"
